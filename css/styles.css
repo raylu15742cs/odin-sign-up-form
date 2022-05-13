@@ -57,3 +57,28 @@ button {
     padding-top: 5vh;
     font-size: 20px;
 }
+form {
+    display: flex;
+    gap: 5vh;
+    padding-top: 2vh;
+}
+input {
+    width: 15vw;
+    height: 30px;
+    border-radius: 5px;
+}
+form p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+input {
+    margin-bottom: 40px;
+    border-color: #e5e7eb;
+}
+.right-form {
+    margin-top: 40px;
+}
+input :focus {
+    border: 2px solid blue;
+}
