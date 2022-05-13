@@ -27,3 +27,13 @@ body {
 .odin {
     max-height: 7vw;
 }
+.first, .second, .third {
+    height: 30vh;
+    border: 2px solid red;
+}
+.first {
+    margin-top: 10vh
+}
+.third {
+    margin-bottom: 10vh;
+}
