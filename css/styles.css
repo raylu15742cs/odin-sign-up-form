@@ -12,7 +12,7 @@ body {
 }
 .right{
     width: 65vw;
-    background-color: aliceblue;
+    background-color: #FAF9F6;
 }
 .sidebar {
     display: flex;
@@ -29,11 +29,31 @@ body {
 }
 .first, .second, .third {
     height: 30vh;
-    border: 2px solid red;
+    padding-left: 5vw;
+    padding-right: 15vw;
 }
-.first {
-    margin-top: 10vh
+.first{
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+    gap: 2.5vh;
+    padding-bottom: 5vh;
+    font-size: 30px;
+}
+
+.second {
+    background-color: white;
+}
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 3vh;
+    font-size: 20px;
+    width: 270px;
+    border-radius: 10px;
 }
 .third {
-    margin-bottom: 10vh;
+    padding-top: 5vh;
+    font-size: 20px;
 }
