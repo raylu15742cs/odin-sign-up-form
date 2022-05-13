@@ -7,9 +7,23 @@ body {
 }
 .left {
     width: 35vw;
-    background-color: green;
+    color: white;
+    font-size: 85px;
 }
 .right{
     width: 65vw;
     background-color: aliceblue;
+}
+.sidebar {
+    display: flex;
+    height: 7vw;
+    margin-top: 15vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 2vw 0;
+    
+}
+.odin {
+    max-height: 7vw;
 }
